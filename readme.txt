@@ -11,16 +11,14 @@ Display customer ID based on user ID.
 == Description ==
 This plugin pulls the user ID into a shortcode. You can use that to display as the customer, member or any other kind of ID you want.
 
-##How to use it on posts or pages?
-Use the shortcode \"[customer-id]\"
+### How to use it on posts or pages?
+Use the shortcode `[customer-id]`
 
-##How to use it on theme or plugin code?
-paste this \"\"
+### How to use it on theme or plugin code?
+paste this `<?php print get_current_user_id(); ?>`
 
 == Installation ==
-##Automatic Plugin Installation
 
-###To add a WordPress Plugin using the built-in plugin installer:
 1. Go to Plugins > Add New.
 2. Type Customer ID Shortcode.
 3. Click Install Now.
@@ -29,10 +27,10 @@ paste this \"\"
 
 
 == Frequently Asked Questions ==
-##How to use it on posts or pages?
+### How to use it on posts or pages?
 Use the shortcode `[customer-id]`
 
-##How to use it on theme or plugin code?
+### How to use it on theme or plugin code?
 paste this `<?php print get_current_user_id(); ?>`
 
 == Changelog ==
